@@ -1,0 +1,43 @@
+body {
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.main_heading {
+    font-size: 7vh;
+    margin: auto;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.showOn {
+    display: inline-block;
+    width: 100vw;
+    height: 90vh;
+}
+
+.blastHere img {
+    display: inline-block;
+    width: 30vw;
+}
+
+
+/*classes that i will add using javascipt*/
+.visible {
+    display: inline-block;
+}
+
+.invisible {
+    display: none;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/*for mobile*/
+@media only screen and (max-width: 900px) {
+    .blastHere img {
+        width: 50vw;
+    }
+}
